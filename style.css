@@ -24,7 +24,7 @@ a:active {
   color: blue;
 }
 
-.container > img {
+.container>img {
   width: 250px;
 }
 
@@ -83,16 +83,27 @@ a:active {
   }
 }
 
-.col-centered{
-    float: none;
-    margin: 0 auto;
+.col-centered {
+  float: none;
+  margin: 0 auto;
 }
 
 .options-row {
-    margin-top: 13%;
-    text-align: center;
-    font-size: 55px;
-    font-weight: 500;
-    text-align: center;
+  margin-top: 13%;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 500;
+  text-align: center;
+
+}
+
+.contact-info {
+  position: absolute;
+  right: 10px;
+  bottom: 50px;
+  text-align: right;
+  font-family: 'Courier Prime', monospace;
+  letter-spacing: 3px;
+  font-size: 21px;
 
 }
