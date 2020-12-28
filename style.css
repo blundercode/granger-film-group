@@ -6,17 +6,17 @@ body {
 
 /* unvisited link */
 a:link {
-  color: #b5595e;
+  color: white;
 }
 
 /* visited link */
 a:visited {
-  color: #008aa9;
+  color: white;
 }
 
 /* mouse over link */
 a:hover {
-  color: #6c9299;
+  color: #BD1707;
 }
 
 /* selected link */
@@ -105,5 +105,10 @@ a:active {
   font-family: 'Courier Prime', monospace;
   letter-spacing: 3px;
   font-size: 21px;
+}
 
+@media only screen and (max-width: 600px) {
+  .contact-info {
+    letter-spacing: 0px;
+  }
 }
